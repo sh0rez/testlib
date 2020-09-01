@@ -1,0 +1,8 @@
+directory: charts
+repositories:
+- name: stable
+  url: https://kubernetes-charts.storage.googleapis.com
+requires:
+- chart: stable/grafana
+  version: 5.5.5
+version: 1
